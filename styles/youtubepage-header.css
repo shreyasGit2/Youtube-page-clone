@@ -1,0 +1,176 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(240, 235, 235);
+  z-index:100;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-logo{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube-logo{
+  height: 20px;
+}
+.middle-section{
+  flex:1;
+  display: flex;
+  align-items: center;
+  margin-left: 236px;
+  margin-right: 235px;
+  max-width: 100%;
+}
+
+.search-box{
+  flex:1;
+  height: 36px;
+  padding-left:10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid; 
+  border-color: rgb(170, 165, 165);
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 1px black;
+  width:0px;
+}
+
+.search-box::placeholder{
+  font-family:Roboto,Arial;
+  font-size: 16px;
+  padding-left:10px;
+}
+.search-button{
+ height: 40px;
+ width: 66px;
+ background-color: rgb(241, 234, 234);
+ border-width: 1px;
+ border-style:solid;
+ border-color: rgb(170, 165, 165);
+ margin-left:-1px;
+ margin-right: 10px;
+ position:relative;
+ cursor: pointer;
+}
+ .search-button div{
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-bottom:4px;
+  padding-top:4px;
+  padding-left:6px;
+  padding-right:6px;
+  border-radius: 2px;
+  font-size:12px;
+  bottom:-30px;
+  opacity:0;
+  transition: opacity 0.15s;
+  pointer-events:none;
+}
+
+.search-button:hover div{
+ opacity:1; 
+}
+ 
+.search-icon{
+  height: 25px;
+  margin-top:4px;
+ 
+}
+.voice-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  position:relative;
+  background-color:rgb(245, 239, 239);
+}
+
+.voice-button div{
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-bottom:4px;
+  padding-top:4px;
+  padding-left:6px;
+  padding-right:6px;
+  border-radius: 2px;
+  font-size:12px;
+  bottom:-30px;
+  opacity:0;
+  transition: opacity 0.15s;
+  pointer-events:none;
+  cursor:pointer;
+}
+.voice-button:hover div{
+  opacity: 1;
+}
+
+.voice-icon{
+  height: 23px;
+  margin-top: 4px;
+}
+
+.right-section{
+  width:180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 3px;
+  flex-shrink: 0px;
+
+}
+
+.upload-icon{
+  height: 24px;
+  margin-right:12px;
+}
+.right-section .upload-icon{
+  
+}
+.apps-icon{
+  height: 24px;
+  margin-right:12px;
+}
+.notify-icon{
+  height: 24px;
+  margin-right:12px;
+}
+
+.notifications-icon-container
+{
+  position: relative;
+}
+
+.notifications{
+  position:absolute;
+  top:0px;
+  left:12px;
+  background-color:rgb(189, 2, 2);
+  color:white;
+  font-family: Roboto,Arial;
+  font-size: 9px;
+  padding-right:5px;
+  padding-left: 5px;
+  padding-bottom:2px;
+  padding-top:2px;
+  border-radius: 10px;
+}
+.profile-pic-icon{
+  height: 32px;
+  border-radius:16px;
+}
+

@@ -1,0 +1,88 @@
+
+      .Thumb-N-1{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 80px;
+        position:relative;
+      }
+      .video-title{
+        font-size: 14px;
+        font-weight: 700;
+        display: inline;
+        line-height: 20px;
+      }
+      .video-preview{
+        color: rgb(85, 84, 84);
+        font-size: 12px;
+        margin-bottom:5px;
+      }
+      .setline{
+        font-size: 12px;
+        color: rgb(85, 84, 84);
+        margin-top:5px;
+      }
+      .fst-video{
+        width:300px;
+        display:inline-block;
+        margin-left:100px;
+        background-color: rgb(243, 239, 239);
+      }
+      .sec-video{
+        width:300px;
+        display:inline-block;
+        vertical-align: top;
+        margin-left:30px;
+        background-color: rgb(243, 239, 239);
+      }
+
+      .video-info-grid{
+        display:grid;
+        grid-template-columns: 50px 1fr;  
+       
+      }
+
+      .sundar-semipic{
+        width:45px;
+        border-radius: 30px;
+      }
+      .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: rgb(243, 239, 239);
+        padding-right:12px;
+      }
+
+      .third-video{
+        width:300px;
+        display:inline-block;
+        margin-left:100px;
+      }
+
+      .fourth-video{
+        width:300px;
+        display:inline-block;
+        margin-left:100px;
+      }
+
+      .Thumb-N-2{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 50px;
+      }
+
+      .video-time{
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 230px;
+        display: inline-block;
+        left:362px;
+        font-family: Roboto,Arial;
+        font-size:12px;
+        font-weight: 500;
+        padding-left:3px;
+        padding-right:3px;
+        padding-top:4px;
+        padding-bottom:4px;
+        border-radius:2px;
+      }
